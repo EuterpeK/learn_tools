@@ -31,4 +31,13 @@
     将本地仓库的内容推送到github仓库
 14. git push -u origin master
     将本地库的所有内容推送到远程库上
-    
+15. git checkout -b branch_name
+    创建分支并切换到分支中
+    相当于: git branch branch_name
+            git checkout branch_name
+16. git branch
+    查看当前分支
+17. git merge branch_name
+    合并分支
+18. git branch -d branch_name
+    删除分支
